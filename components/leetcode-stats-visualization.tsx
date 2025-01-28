@@ -29,6 +29,18 @@ interface LeetCodeStatsVisualizationProps {
   }
 }
 
+interface BarTooltipProps {
+  active?: boolean;
+  payload?: Array<{
+    payload: {
+      name: string;
+      solved: number;
+      total: number;
+      percentage: string;
+    }
+  }>;
+}
+
 export function LeetCodeStatsVisualization({ stats }: LeetCodeStatsVisualizationProps) {
   const difficultyData = [
     { 
@@ -52,7 +64,7 @@ export function LeetCodeStatsVisualization({ stats }: LeetCodeStatsVisualization
   ];
 
   const COLORS = ['#4caf50', '#ff9800', '#f44336'];
-  const BarTooltip = ({ active, payload }: any) => {
+  const BarTooltip = ({ active, payload }: BarTooltipProps) => {
     if (active && payload && payload.length) {
       const data = payload[0].payload;
       return (

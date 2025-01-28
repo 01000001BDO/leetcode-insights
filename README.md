@@ -12,42 +12,6 @@ LeetCode Insights is a powerful, modern web application that provides comprehens
 - **Responsive Design** 📱
 - **Detailed Problem-Solving Insights** 🧩
 
-### 🛠 Technologies Used
-
-- Next.js 15
-- React
-- TypeScript
-- Tailwind CSS
-- Recharts
-- Shadcn/UI Components
-
-### 🚦 Getting Started
-
-#### Prerequisites
-
-- Node.js (v18 or later)
-- npm or yarn
-
-#### Installation
-
-1. Clone the repository
-```bash
-git clone https://github.com/01000001BDO/leetcode-insights.git
-```
-
-2. Install dependencies
-```bash
-cd leetcode-insights
-npm install
-```
-
-3. Run the development server
-```bash
-npm run dev
-```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
-
 ### 🔍 How It Works
 
 1. Enter your LeetCode username
